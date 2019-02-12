@@ -30,8 +30,8 @@
       tls-component-endpoints:
         # The following service endpoints are behind TLS
         - barbican-api
-        - mysql
-        - rabbitmq
+        #- mysql
+        #- rabbitmq
 {%   endif %}
       component-endpoints:
 {%   if 'MANAGEMENT' in network_group['component_endpoints'] %}
